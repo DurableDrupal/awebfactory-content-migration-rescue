@@ -1,4 +1,4 @@
-# Chapter 2. Migration in Stages towards Decoupled, API First Content Modeling, Architecture, Management and Delivery.
+## Chapter 2. Migration in Stages towards Decoupled, API First Content Modeling, Architecture, Management and Delivery.
 
 ## Structure. Stacks. Migration & Structured Content Server. CMS & Workflow. Clients.
 
