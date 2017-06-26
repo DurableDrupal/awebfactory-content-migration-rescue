@@ -1,6 +1,6 @@
 ## DurableDrupal Content Migration Rescue: AWebFactory.com
 
-From Drupal 6 monolith to decoupled full stack Javascript.
+From Drupal content monolith to decoupled full stack Javascript.
 
 Published using [Pandoc](http://pandoc.org/). See
 
