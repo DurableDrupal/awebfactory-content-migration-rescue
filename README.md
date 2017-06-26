@@ -1,6 +1,6 @@
 ## DurableDrupal Content Migration Rescue: AWebFactory.com
 
-From Drupal content monolith to decoupled full stack Javascript.
+Migrate from Drupal Content Monolith to Structured Content Model. To Open API First Architecture.
 
 Published using [Pandoc](http://pandoc.org/). See
 
