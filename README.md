@@ -12,10 +12,10 @@ You might need to install latex and xelatex
 
 Instructions for Ubuntu and derivates:
 
-...
+``` bash
 sudo apt-get install latex
 sudo apt-get install texlive-xetex
-...
+```
 
 To generate output once Pandoc is installed on your system, do the following:
 
