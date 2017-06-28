@@ -125,7 +125,7 @@ As a result of this current situation, in the AWebFactory case study shared here
 
 ### Special Mention: "Intelligent" Static Site Generators
 
-While an API-First CMS will have, as its primary responsability, the function of persisting content on the SCS (Structured Content Server), it should also serve a very widely-used alternative for many projects: "intelligent" Static Site Generators, such as [Gatsby](https://github.com/gatsbyjs/gatsby), authored by ex-Drupalista Kyle Matthews.
+While an API-First CMS will have, as its primary responsability, the function of persisting content on the SCS (Structured Content Server), it should also serve a very widely-used alternative for many projects: "intelligent" Static Site Generators, such as [Gatsby](https://github.com/gatsbyjs/gatsby), authored by ex-Drupalista Kyle Matthews. Interestingly, however, Gatsby as well as most static site generators use a text editor and GitHub as the CMS.
 
 This is a strong up-and-coming tendency. While Gatsby is one of the best examples see this [list of Static Site Generators](https://www.staticgen.com/).
 
