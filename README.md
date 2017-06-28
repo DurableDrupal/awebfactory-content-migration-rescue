@@ -8,9 +8,7 @@ Published using [Pandoc](http://pandoc.org/). See
 * [Pandoc Installation Guide](http://pandoc.org/installing.html)
 * [Pandoc examples](http://pandoc.org/demos.html)
 
-You might need to install latex and xelatex
-
-Instructions for Ubuntu and derivates:
+You will need to install latex for PDF generation. For example, on Ubuntu and derivates:
 
 ``` bash
 sudo apt-get install latex
@@ -23,3 +21,5 @@ To generate output once Pandoc is installed on your system, do the following:
 mkdir -p _preview/en
 ./build-en.sh
 ```
+
+> We use pull requests on GitHub for collaborative editing (AWebFactory.com article). We will soon share an article on how you can do the same while working on your own publications.
