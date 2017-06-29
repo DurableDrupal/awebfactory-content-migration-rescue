@@ -38,7 +38,7 @@ Eaton's "polemical" solution was to "have our cake and eat it too": to transform
 
 Unlike Adrian Rossouw' timely proposal (made a full two years earlier) to shift product-like features out of core, transforming Drupal into a real framework and making it easier to create all kinds of products, Eaton fudges, proposing that Drupal be allowed to bloat, temporarily, leaving time to then separate out the "product parts" from the "toolbox parts", so that no-one gets offended.
 
-Just as a point of reference, fully 8 months before this talk, we were greeted with Drupal 7's presentation layer bloated launch on January 5, 2011 solving none of these problems. Instead "Enterprise Drupal Gardens" and the community were "gifted" with the Overlay, the Dashboard and the Toolbar (the first three modules anyone building a website had to disable before starting any kind of decent website).
+Just as a point of reference, fully 8 months before this talk, we were greeted with Drupal 7's presentation layer bloated launch on January 5, 2011. Instead of #smallcore and the solution to some of these painful problems at least, "Enterprise Drupal Gardens" and the community were "gifted" with the Overlay, the Dashboard and the Toolbar (the first three modules anyone building a website had to disable before starting any kind of decent website).
 
 Despite the superficiality and failure to take a stand, at least the taboo was breached and these important questions were put forward. And it won't be the last time we mention Jeff Eaton, or Lullabot, in this chapter.
 
@@ -52,10 +52,17 @@ Certainly a significant lag for COPE to have arrived on the island by snail mail
 
 #### Lullabot discovers Full Stack Javascript and "headless" Drupal
 
-### Let's talk about that Content Model
+#### Let's talk about that Content Model
 
 In attempting to get down to the nitty-gritty of the Content Model, at AWebFactory, we were struck by the modesty, simplicity and profundity of ... in his series of articles on the subject. Like a breath of fresh air, the essence of the Content Model is clearly explained by somone with one foot firmly placed in software development analysis and design and process engineering, and another squarely placed in the architectural vision needed to support Content Management as an articulation of that Content Model (rather than speak about Content Strategy and continue to espouse a "platform" incapable of sustaining it). 
 
+#### "Should we upgrade to Drupal 8?" No.
+
+Drupal 8 was too much, too late. Still monolithic, it launched in November, 2015, almost five years after Drupal 7. More than a year later, still not widely adopted, already a declining trend, it was desperately trying to sell itself as an "API-First" and "decoupled" back-end solution (admitting that the front end was a total failure) despite it being even less performan and non-scalable than its predecessor. 
+
+It was also a complete re-write, with xxxx of the code changed. While Laravel, also based on synfonsy, became the life of the PHP party framework (Laravel is not the hare and the duck at the same time, it's a framework) as it all but embraced Vue.js as its front end, and would be the obvious serious choice in the PHP world.
+
+ 
 
 
 \pagebreak
