@@ -31,4 +31,13 @@ mkdir -p _preview/es
 
 And so on, for each successive version.
 
-> We use pull requests on GitHub for collaborative editing (AWebFactory.com article). We will soon share an article on how you can do the same while working on your own publications.
+> We use pull requests on GitHub for collaborative editing on this publication.
+
+**How it works**
+
+* Read [GitHub pull request docs](https://help.github.com/articles/about-pull-requests/)
+* Read [GitHub help on Pull Requests with a Forked Repo](https://help.github.com/articles/fork-a-repo/)
+* Fork this repo
+* Create your own topic branch, for example "vero-work"
+* Follow [these directions from Github help](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+
