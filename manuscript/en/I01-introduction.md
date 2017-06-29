@@ -1,4 +1,4 @@
-# Introduction. Come for the community. Stay to rescue my content.
+# Introduction. Come for the community. Stay to rescue your content.
 
 The author of this book, Victor Kane, got a big surprise in March, 2015. And another one just a few months ago.
 
@@ -39,6 +39,10 @@ Drupal (legacy) => { FullStack() }
 ```
 
 In short, they wanted to **rescue** their stuff and place it all in a modern, decoupled, API-First context.
+
+Because it has become a tendency. Starting with the onset of 2017, approximately, something was changing, something was emerging. From the standpoint of a place like the mentoring community website, a crossroads in the IT forest, where all tendencies are immediately made apparent; just as Angular.js was king in 2015, and React.js in 2016, and Vue.js in 2017, also, with the onset of 2017, after a couple of years of not having had almost any requests for Drupal, Drupal was back. But not because people wanted to use Drupal, but rather because, in a nutshell, people wanted to get off the island, and not have to leave their stuff behind. 
+
+People had come for the community. And now needed to rescue their content.
 
 Hence the need for this book, and the tools, methods, process and code behind it.
 
