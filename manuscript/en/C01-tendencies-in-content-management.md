@@ -46,11 +46,34 @@ Despite the superficiality and failure to take a stand, at least the taboo was b
 
 Fully two years earlier, in 2009, the [NPR API-First "Create Once Publish Everywhere" (COPE)](https://www.slideshare.net/zachbrand/npr-api-create-once-publish-everywhere) digital media system had already become a reality.
 
-#### Lullabot discovers COPE in 2013
+#### Lullabot and friends discover and evangelize COPE and Structured Content in 2013
 
-Certainly a significant lag for COPE to have arrived on the island by snail mail but even so, Lullabot proves itself once again (now that Development Seed had abandoned Drupal) quite the pioneer.
+COPE and the Content Model to arrive on the island by snail mail and Lullabot in general, with Jeff Eaton in particular, prove themselves once again (now that Development Seed has abandoned Drupal and discovered [Static Site Generators in 2012](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)) quite the pioneer.
 
-#### Lullabot discovers Full Stack Javascript and "headless" Drupal
+* [2013 - Daniel Jacobson and Jeff Eaton on NPR's COPE and Content APIs](https://www.lullabot.com/podcasts/insert-content-here/daniel-jacobson-on-nprs-cope-and-content-apis) 
+* [2013 - building for the post-mobile world](https://speakerdeck.com/eaton/building-for-the-post-mobile-world)
+* [2014 - Decoupled CMS - "Headless" Drupal Options by Josh Koenig](https://pantheon.io/blog/decoupled-cms-headless-drupal-options)
+* [2014 - Innovation - New York Times Executive Report](http://www.presscouncil.org.au/uploads/52321/ufiles/The_New_York_Times_Innovation_Report_-_March_2014.pdf)
+    * The New York Times executive headslap report, discovers "structured data" and tags.
+* [1980 - Karen McGrane explains in 2013 how TV Guide did it all right decades earlier]
+    * [With All Content Moving Mobile, Karen McGrane Writes, The API's The Thing](https://www.forbes.com/sites/anthonykosner/2013/01/09/with-all-content-moving-mobile-karen-mcgrane-writes-the-apis-the-thing/#6afb25b61a8b)
+    > "Although at the time the most popular magazine in America, its leadership realized presciently that it was not in the magazine publishing business, but the content publishing business."
+
+#### 2014 Nedjo Rogers courageously denounces how the lack of configuration management in code and #smallcore obeys the special interests of Drupal Big Tech
+
+* [2014 Will The Revolution Be Drupalized? Free Software, Dictatorship, and Saving the World](https://www.drupalwatchdog.com/volume-4/issue-2/will-revolution-be-drupalized)
+
+We are proud to have supported Nedjo and delved deep into both the subject and the ensuing debates:
+
+[2015 Why won't anyone listen to Nedjo? When he says the Drupal 8 Configuration Management system is only listening to one use case?](http://awebfactory.com/node/536)
+
+This article provides an extensive bibliography. In spite of all the blabber about Structured Content, a significant number of the links fail, but we have re-constructed the most significant here:
+
+* [Principles of Configuration Management - Part One by Alex Pott December 9, 2014](https://www.chapterthree.com/blog/principles-of-configuration-management-part-one)
+* [Principles of Configuration Management - Part Two by Alex Pott January 9, 2015](https://www.chapterthree.com/blog/principles-of-configuration-management-part-two)
+* [Nedjo Rogers: Drupal 8 configuration management: what about small sites and distributions? (response to Alex Pott's articles), January 22, 2015](http://chocolatelilyweb.ca/blog/drupal-8-configuration-management-what-about-small-sites-and-distributions)
+* [Nedjo Rogers: Drupal 8 and distributions part 2: problems and prospects, January 26, 2015](http://chocolatelilyweb.ca/blog/drupal-8-configuration-management-what-about-small-sites-and-distributions)
+* [Alex Pott (Chapter Three): Drupal 8 and the Enterprise (*response to a rudely un-named Nedjo Rogers*), February 26, 2015](https://www.chapterthree.com/blog/drupal-8-and-enterprise)
 
 #### Let's talk about that Content Model
 
@@ -58,11 +81,10 @@ In attempting to get down to the nitty-gritty of the Content Model, at AWebFacto
 
 #### "Should we upgrade to Drupal 8?" No.
 
-Drupal 8 was too much, too late. Still monolithic, it launched in November, 2015, almost five years after Drupal 7. More than a year later, still not widely adopted, already a declining trend, it was desperately trying to sell itself as an "API-First" and "decoupled" back-end solution (admitting that the front end was a total failure) despite it being even less performan and non-scalable than its predecessor. 
+Drupal 8 was too much, too late. Still monolithic, it launched in November, 2015, almost five years after Drupal 7. Almost two years later, still not widely adopted, already a declining trend, it was desperately trying to sell itself as an "API-First" and "decoupled" back-end solution (admitting that the front end was a total failure) despite it being even less performant, and hence non-scalable, than its predecessor. 
 
-It was also a complete re-write, with xxxx of the code changed. While Laravel, also based on synfonsy, became the life of the PHP party framework (Laravel is not the hare and the duck at the same time, it's a framework) as it all but embraced Vue.js as its front end, and would be the obvious serious choice in the PHP world.
+It was also a complete re-write, with xxxx of the code changed. While [Laravel](https://laravel.com/), also based on [Symfony](https://symfony.com/), became the life of the PHP party framework (Laravel is not the hare and the duck at the same time) as it all but embraced Vue.js as its front end, and would be the obvious serious choice in the PHP server-side world.
 
  
-
 
 \pagebreak
