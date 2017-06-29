@@ -37,7 +37,10 @@ And so on, for each successive version.
 
 * Read [GitHub pull request docs](https://help.github.com/articles/about-pull-requests/)
 * Read [GitHub help on Pull Requests with a Forked Repo](https://help.github.com/articles/fork-a-repo/)
-* Fork this repo
+    * Fork this repo and create a local clone of your fork
+    * Add upstream remote to keep in sync with this repo.
+        * `git remote add upstream https://github.com/DurableDrupal/awebfactory-content-migration-rescue`
+    * [Keep in sync](https://help.github.com/articles/syncing-a-fork/) 
 * Create your own topic branch, for example "vero-work"
-* Follow [these directions from Github help](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+* Follow [these directions from Github help](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) in order to do the pull request from your topic branch
 
