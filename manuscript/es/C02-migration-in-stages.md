@@ -1,4 +1,4 @@
-## Capítulo 2. Migration in Stages
+## Capítulo 2. La Migración en Etapas
 
 We have now landed in this brave new world of decoupled, Api-First architectures enabling the distributed Management and Delivery of Structured Content Models. Where content constantly travels between software stack instances of servers and clients: there's a central structured content server (SCS), there's an editorial app to manage the content stored on that server (CMS) and there are one or more client web apps (CWA) publishing that content and meeting users' needs in multiple ways.
 
