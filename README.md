@@ -15,11 +15,20 @@ sudo apt-get install latex
 sudo apt-get install texlive-xetex
 ```
 
-To generate output once Pandoc is installed on your system, do the following:
+To generate output for the **English version** once Pandoc is installed on your system, do the following:
 
 ```
 mkdir -p _preview/en
-./build-en.sh
+./build.sh en
 ```
+
+For **Spanish version**:
+
+```
+mkdir -p _preview/es
+./build.sh es
+```
+
+And so on, for each successive version.
 
 > We use pull requests on GitHub for collaborative editing (AWebFactory.com article). We will soon share an article on how you can do the same while working on your own publications.
