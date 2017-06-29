@@ -48,4 +48,10 @@ Hence the need for this book, and the tools, methods, process and code behind it
 
 All being served up to you, as you no doubt begin to ask the same questions.
 
+Although this is a hands-on book, we do need to know what we're doing, so Section 1 deals with both a historical view of the real forces at work ..... as well as a look forward to how content rescue from the island can be achieved either all at once, or else in evolutionary stages.
+
+In Section 2, we delve right into our DurableDrupal Content Migration case study, so you can too. You can follow each chapter, and links will always be provided to relevant repos.
+
+Then...
+
 \pagebreak
