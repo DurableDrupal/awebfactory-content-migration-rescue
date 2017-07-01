@@ -4,7 +4,8 @@
 
 But the change had started, as it always does in these cases, off the island. And had made their presence felt by coming through in waves. Exactly how, over the past few years, had those waves of change made themselves felt?
 
-#### 2009 - A brave and honest Smallcore Manifesto
+#### 2009 - A brave and honest 
+ - Smallcore Manifesto
 
 In [A Smallcore Manifesto: Help Us Build a Better Teddy Bear](https://developmentseed.org/blog/2009/oct/28/smallcore-manifesto-help-us-build-better-teddy-bear/) author [Adrian Rossouw](https://github.com/AdrianRossouw) (then part of the [Development Seed](https://developmentseed.org/), which [abandoned Drupal](https://www.quora.com/Why-did-Development-Seed-abandon-Drupal) a year later) explains the growing (even then) limitations of the Drupal monolith clearly and succinctly.
 
@@ -99,10 +100,11 @@ Ahead of its time, the architecture continues to be at least an evolutionary opt
 
 The enthusiasm voiced in the podcast, plus our own enthusiasm at discovering that Lullabot had just implemented what we were looking forward to doing, led to our own tweet, which headed up our old Drupal 6 website for some time, owning up to what we were up to ourselves:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Working in winter quarters to migrate <a href="http://t.co/toVj8kLtsO">http://t.co/toVj8kLtsO</a> to new architecture. We haven&#39;t seen this spirit here since 1996. <a href="https://twitter.com/hashtag/StayTuned?src=hash">#StayTuned</a></p>&mdash; AWebFactory (@a_web_factory) <a href="https://twitter.com/a_web_factory/status/628923669784461313">August 5, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Working in winter quarters to migrate [AWebFactory.com](http://awebfactory.com) to new architecture. We haven't seen this spirit here since 1996. Stay tuned.
+> 
+> -- AWebFactory (@a_web_factory) [August 5, 2015](https://twitter.com/a_web_factory/status/628923669784461313)
 
-#### The Quest for the Holy Grail: which API-First CMS to use?
+#### 2017 The Quest for the Holy Grail: which API-First CMS to use?
 
 Since content needs to be structured, and not stored as a formless blob created by a rich text editor (aka WYSIWYG editor), it is significant that Lullabot's 2015 website makeover used the legacy Drupal 7 as a backend CMS "which is what Drupal does best". 
 
@@ -152,11 +154,11 @@ CMSes surveyed:
 * Decoupled Drupal issues
 * Drupal internally decoupled
     * separated out into components
-    * #smallcore revisited
+    * `#smallcore` revisited
     * Tantalizing, parts of "Drupal" would not need to be implemented in PHP!
     > *AWebFactory is actively pursuing these kinds of "withering away of Drupal" architectures*.
 
-#### The Future of Drupal Depends on how well it can be Marketed as a back end CMS and SCS API
+#### 2017 The Future of Drupal Depends on how well it can be Marketed as a back end CMS and SCS API
 
 * The idea of Drupal 8 as back-end (CMS (Content Management System) and SCS (Structured Content Server)) has surfaced and re-surfaced in the short time since DrupalCon Baltimore 2017, with no less than three offerings:
     * Contenta (much tweeting at DrupalCon on June 30)
@@ -175,14 +177,13 @@ CMSes surveyed:
         * [Description](https://pdayquotient.github.io/drupalcon-2017-bodiless-drupal/)
         * [Repo](https://github.com/pdayquotient/drupalcon-2017-bodiless-drupal)
     * [Building a Fully Decoupled Drupal 8 Data Backend](https://events.drupal.org/baltimore2017/sessions/building-fully-decoupled-drupal-8-data-backend)
-    * []
 * [Acquia Waterwheel.js A generic JavaScript helper library to query and manipulate Drupal 8 via core REST](https://github.com/acquia/waterwheel.js)
 
 > AWebFactory got a working example of its own going, based on material presented in one of the sessions.
 > 
 > [DurableDrupal Repo: How to create a headless Drupal site](https://github.com/DurableDrupal/durable-drupal-cms-cliente-01)
 
-#### Additional actively developed Free Software and Open Source CMS being investigated by AWebFactory
+#### 2017 Additional actively developed Free Software and Open Source CMS being investigated by AWebFactory
 
 We have investigated additional CMS having similar characteristics:
 
@@ -198,11 +199,11 @@ This is the first step. There is no second step.
     * [Headless Drupal the Gizra Way](http://slides.com/david_hernandez/headless-drupal#/)
     * [Repo](https://github.com/DavidHernandez/drupal-elm-starter)
 
-#### But we want a CMS that writes to a decoupled SCS (Structured Content Server)
+#### 2017 But we want a CMS that writes to a decoupled SCS (Structured Content Server)
 
 All of these choices oblige you to use the CMS also as the SCS (Structured Content Server). What we at AWebFactory is to decouple these two processes. Most of this book is dedicated to showing how this can be done, and we offer a detailed guide accompanying actual free software and open source code repositories you can download and actually use. We are the only ones doing this.
 
-#### Let's talk about that Content Model. Cleve Gibbon's Series of Articles FTW.
+#### 2017 Let's talk about that Content Model. Cleve Gibbon's Series of Articles FTW.
 
 In attempting to get down to the nitty-gritty of the Content Model, at AWebFactory, we were struck by the modesty, simplicity and scientific, buzzwordless, non-rockstar profundity of Cleve Gibbon in his [Content Model series of articles](http://www.clevegibbon.com/content-modeling/). 
 
