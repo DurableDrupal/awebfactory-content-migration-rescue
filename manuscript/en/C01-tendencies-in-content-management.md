@@ -165,8 +165,22 @@ CMSes surveyed:
     * [Acquia Reservoir Content Repository](https://dev.acquia.com/blog/introducing-reservoir-a-distribution-for-decoupling-drupal/19/06/2017/18296) 
         * [Repo](https://github.com/acquia/reservoir)
     * [Thunder: Drupal 8 based CMS for publishers](http://www.thunder.org/)
-* DrupalCon Baltimore 2017 offered no less than NN sessions on decoupled and headless Drupal, showing that it's pretty clear to everyone that this is the only viable route open to future Drupal surivival at this point. Drupal is being vigorously marketed at this point as a CMS and SCS API back end.
+* DrupalCon Baltimore 2017 offered more than a dozen sessions on decoupled and headless Drupal, showing that it's pretty clear to everyone that this is the only viable route open to future Drupal surivival at this point. Drupal is being vigorously marketed at this point as a CMS and SCS API back end.
+    * [Lessons Learned from Drupalcon 2017 Baltimore: Decoupled Headless Drupal](https://labs.mlssoccer.com/lessons-learned-from-drupalcon-2017-baltimore-decoupled-headless-drupal-852d76d1cfb9)
+        * **Excellent roundup article with background info, it itemizes more than half a dozen "headless" alternatives**
+    * [Drupal API-First Initiative](https://www.drupal.org/node/2757967)
+    * [Headless Drupal — Build a Drupal 8 API with a ReactJS Front-End](https://medium.com/@Userium/headless-drupal-build-a-drupal-8-api-with-a-reactjs-front-end-e43bf0fb94db)
+    * [How to Create a Headless Drupal Site](https://www.adcisolutions.com/knowledge/how-create-headless-drupal-site)
+    * [Ain’t No Body: Not Your Mama’s Headless Drupal](https://events.drupal.org/baltimore2017/sessions/ain%E2%80%99t-no-body-not-your-mama%E2%80%99s-headless-drupal)
+        * [Description](https://pdayquotient.github.io/drupalcon-2017-bodiless-drupal/)
+        * [Repo](https://github.com/pdayquotient/drupalcon-2017-bodiless-drupal)
+    * [Building a Fully Decoupled Drupal 8 Data Backend](https://events.drupal.org/baltimore2017/sessions/building-fully-decoupled-drupal-8-data-backend)
+    * []
 * [Acquia Waterwheel.js A generic JavaScript helper library to query and manipulate Drupal 8 via core REST](https://github.com/acquia/waterwheel.js)
+
+> AWebFactory got a working example of its own going, based on material presented in one of the sessions.
+> 
+> [DurableDrupal Repo: How to create a headless Drupal site](https://github.com/DurableDrupal/durable-drupal-cms-cliente-01)
 
 #### Additional actively developed Free Software and Open Source CMS being investigated by AWebFactory
 
