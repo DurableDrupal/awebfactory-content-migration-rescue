@@ -1,6 +1,8 @@
 ## DurableDrupal Content Migration Rescue: AWebFactory.com
 
-Migrate from Drupal Content Monolith to Structured Content Model. To Open API First Architecture.
+> Move On with your Content.
+> Migrate from Drupal Content Monolith to Structured Content Model.
+> To Open API First Architecture.
 
 Published using [Pandoc](http://pandoc.org/). See
 
