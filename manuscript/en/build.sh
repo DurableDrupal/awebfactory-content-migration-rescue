@@ -15,6 +15,7 @@ pandoc manuscript/en/F01.md \
   manuscript/en/C11-awebfactory-cms-alternatives.md \
   manuscript/en/C12-awebfactory-cms-roll-our-own.md \
   manuscript/en/S03-resources-bibliography.md \
+  manuscript/en/G01-glossary.md \
   manuscript/en/B01-bibliography.md \
   -S -o _preview/en/awebfactory-content-migration-rescue.html --toc --toc-depth=4
 
@@ -35,6 +36,7 @@ pandoc manuscript/en/F01.md \
   manuscript/en/C11-awebfactory-cms-alternatives.md \
   manuscript/en/C12-awebfactory-cms-roll-our-own.md \
   manuscript/en/S03-resources-bibliography.md \
+  manuscript/en/G01-glossary.md \
   manuscript/en/B01-bibliography.md \
   -S -o _preview/en/awebfactory-content-migration-rescue.pdf --toc --toc-depth=4 --latex-engine=xelatex
 
@@ -55,5 +57,6 @@ pandoc manuscript/en/F01.md \
   manuscript/en/C11-awebfactory-cms-alternatives.md \
   manuscript/en/C12-awebfactory-cms-roll-our-own.md \
   manuscript/en/S03-resources-bibliography.md \
+  manuscript/en/G01-glossary.md \
   manuscript/en/B01-bibliography.md \
   -S -o _preview/en/awebfactory-content-migration-rescue.epub --toc --toc-depth=4

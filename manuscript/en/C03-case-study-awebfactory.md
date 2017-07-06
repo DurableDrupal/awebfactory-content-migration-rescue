@@ -24,13 +24,13 @@ Let's take a step back and get a good look at the Migration Process we have befo
 
 ![Migration from legacy Drupal to Full Stack](img/migration01.png)
 
-But, it's not about mechanically shunting the legacy content over to a new system. And it's certainly not about making your content happy. It's about discovering that model your content can properly fill, in order to satisfy the needs of your new Business Model. It's about the Content Model.
+But, it's not about mechanically shunting the legacy content over to a new system. And it's certainly not about making your content happy. It's about discovering that model your content can properly fill, in order to satisfy the needs of your new Business Model. It's about the [Content Model](#ContentModel).
 
 > We again encourage all readers of this book to master the [Content Modeling Series](http://www.clevegibbon.com/content-modeling/) of articles by Cleve Gibbon. Doing so provides a good foundation for tackling the Design and Implementation of your Content Strategy and Model. 
 
 ### Drilling down: Anatomy of the Content Model
 
-So modeling your content is the discovery of composable Content Types made up of Content Attributes, constituting the business domain based building blocks for the design and implementation of that architecture capable of supporting your Content Strategy. 
+So modeling your content is the discovery of composable [Content Types](#ContentType) made up of [Content Attributes](#ContentAttribute), constituting the business domain based building blocks for the design and implementation of that architecture capable of supporting your Content Strategy. 
 
 More simply put, if, for example, your you are selling T-Shirts, you will have a Content Type Product with Content Attributes SKU, Price, Stock, and so on. And there will be a workflow for the creation, publication, modification and deletion of these product items. And so on.
 
@@ -78,7 +78,7 @@ It is in this context that the [Content Modeling Series](http://www.clevegibbon.
 
 At the end of the day, a Content Model must be implemented as a Database Schema of some kind. In our case study involving AWebFactory.com, our target migration database is [MongoDB](https://www.mongodb.com/download-center#community).
 
-On the SCS (Structured Content Server), Content Types making up the Content Model are implemented on the basis of [Mongoose Schema](http://mongoosejs.com/docs/guide.html). And Content Items (instantiations of Content Types) in the form of MongoDB Documents, are made created, accessed, updated and deleted via the REST API exposed to CWA (Client Web Applications). The Mongoose Schema are made up of key value pairs describing individual Document Properties. The value of each property corresponds to its [SchemaType](http://mongoosejs.com/docs/schematypes.html).
+On the [SCS](#SCS "Structured Content Server"), Content Types making up the Content Model are implemented on the basis of [Mongoose Schema](http://mongoosejs.com/docs/guide.html). And Content Items (instantiations of Content Types) in the form of MongoDB Documents, are made created, accessed, updated and deleted via the REST API exposed to CWA (Client Web Applications). The Mongoose Schema are made up of key value pairs describing individual Document Properties. The value of each property corresponds to its [SchemaType](http://mongoosejs.com/docs/schematypes.html).
 
 Valid SchemaTypes:
 
