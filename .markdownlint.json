@@ -1,0 +1,8 @@
+{
+    "default": true,
+    "first-header-h1": false,
+    "ul-style": false,
+    "ul-indent": { "indent": 4 },
+    "line-length": false,
+    "first-line-h1": false
+}
