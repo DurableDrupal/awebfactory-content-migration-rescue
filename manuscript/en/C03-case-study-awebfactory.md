@@ -7,16 +7,16 @@
         - [The Content Model Schema](#the-content-model-schema)
         - [Primitive, Base and Application Domain specific Custom Content Attributes](#primitive-base-and-application-domain-specific-custom-content-attributes)
     - [Concrete Steps Involved in Carrying Out the Migration](#concrete-steps-involved-in-carrying-out-the-migration)
-    - [Legacy Content Inventory](#legacy-content-inventory)
-        - [Drush Scripts to ascertain lists of legacy content items, and its existing structure (content types and categories)](#drush-scripts-to-ascertain-lists-of-legacy-content-items-and-its-existing-structure-content-types-and-categories)
-    - [Content Modeling](#content-modeling)
-        - [The Target Content Model](#the-target-content-model)
-        - [Adapting Legacy Content to the Target Content Model](#adapting-legacy-content-to-the-target-content-model)
-    - [Implementation of the Content Model on the SCS](#implementation-of-the-content-model-on-the-scs)
-    - [Adaptation of legacy content to the target Content Model via Drush Scripts.](#adaptation-of-legacy-content-to-the-target-content-model-via-drush-scripts)
-    - [Iterative and Incremental Migration to the SCS of the legacy content via Adaptive Drush Scripts](#iterative-and-incremental-migration-to-the-scs-of-the-legacy-content-via-adaptive-drush-scripts)
-    - [Testing the Structured Content Server](#testing-the-structured-content-server)
-    - [Writing an initial Client Web Application](#writing-an-initial-client-web-application)
+        - [Legacy Content Inventory](#legacy-content-inventory)
+            - [Drush Scripts to ascertain lists of legacy content items, and its existing structure (content types and categories)](#drush-scripts-to-ascertain-lists-of-legacy-content-items-and-its-existing-structure-content-types-and-categories)
+        - [Content Modeling](#content-modeling)
+            - [The Target Content Model](#the-target-content-model)
+            - [Adapting Legacy Content to the Target Content Model](#adapting-legacy-content-to-the-target-content-model)
+        - [Implementation of the Content Model on the SCS](#implementation-of-the-content-model-on-the-scs)
+        - [Adaptation of legacy content to the target Content Model via Drush Scripts.](#adaptation-of-legacy-content-to-the-target-content-model-via-drush-scripts)
+        - [Iterative and Incremental Migration to the SCS of the legacy content via Adaptive Drush Scripts](#iterative-and-incremental-migration-to-the-scs-of-the-legacy-content-via-adaptive-drush-scripts)
+        - [Testing the Structured Content Server](#testing-the-structured-content-server)
+        - [Writing an initial Client Web Application](#writing-an-initial-client-web-application)
 
 ### Where are we coming from? Where are we going?
 
@@ -136,7 +136,7 @@ In the case of ..., an embedded field, the sub schema is used for the sake of co
 
 We can see this more clearly from an example of a REST API GET operation granting access to listings of Author documents (Content Item instantiations (documents) of the Author Content Type (Schema)).
 
-```
+```javascript
 var router = require('express').Router()
 const Author = require('../../models/author').Author;
 
@@ -206,24 +206,26 @@ Now that we have a clear idea of the Content Model itself, let's take a look at 
 * Testing the Structured Content Server 
 * Writing an initial Client Web Application
 
-### Legacy Content Inventory
+#### Legacy Content Inventory
 
-#### Drush Scripts to ascertain lists of legacy content items, and its existing structure (content types and categories)
+Drush scripts are developed purely for this purpose, leaning heavily upon modules like drush view.
 
-### Content Modeling
+##### Drush Scripts to ascertain lists of legacy content items, and its existing structure (content types and categories)
 
-#### The Target Content Model
+#### Content Modeling
 
-#### Adapting Legacy Content to the Target Content Model
+##### The Target Content Model
 
-### Implementation of the Content Model on the SCS
+##### Adapting Legacy Content to the Target Content Model
 
-### Adaptation of legacy content to the target Content Model via Drush Scripts.
+#### Implementation of the Content Model on the SCS
 
-### Iterative and Incremental Migration to the SCS of the legacy content via Adaptive Drush Scripts
+#### Adaptation of legacy content to the target Content Model via Drush Scripts.
 
-### Testing the Structured Content Server 
+#### Iterative and Incremental Migration to the SCS of the legacy content via Adaptive Drush Scripts
 
-### Writing an initial Client Web Application
+#### Testing the Structured Content Server 
+
+#### Writing an initial Client Web Application
 
 \pagebreak
