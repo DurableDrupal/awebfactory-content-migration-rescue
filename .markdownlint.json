@@ -4,5 +4,6 @@
     "ul-style": false,
     "ul-indent": { "indent": 4 },
     "line-length": false,
-    "first-line-h1": false
+    "first-line-h1": false,
+    "no-trailing-punctuation": false
 }
