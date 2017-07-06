@@ -37,14 +37,14 @@ People were calling for help based on a very simple question:
 
 The great surprise here was, upon presenting various alternatives (see Chapter 2), the great majority opted to migrate directly to a full stack solution. They wanted something like this:
 
-```
+```javascript
 FullStack (Process Engineering = 
            Lean UX && Agile && Kanban && UML, 
            Devops = true) => { 
   (React && Redux || Vue && Vuex) && 
   Node && (Express || Hapi) && 
   (MySql || MongoDB || CouchDB) 
-} 
+}
 
 Drupal (legacy) => { FullStack() }
 ```
