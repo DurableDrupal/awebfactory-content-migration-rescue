@@ -11,3 +11,4 @@
 * Create your own topic branch, for example "vero-work"
 * Follow [these directions from Github help](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) in order to do the pull request from your topic branch
 
+> Please note that we are a tightly knit group working on this book, and we cannot promise to respond to pull requests immediately. Please raise an issue first, so that we can discuss it, if possible. We will of course make every effort in all cases to respond as soon as we possibly can.
