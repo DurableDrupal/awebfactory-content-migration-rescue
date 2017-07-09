@@ -1,15 +1,12 @@
 # Introduction
 
-- [Introduction](#introduction)
-    - [Non-technical Overview](#non-technical-overview)
-    - [Technical Community Introduction. What is DurableDrupal Content Migration Rescue?](#technical-community-introduction-what-is-durabledrupal-content-migration-rescue)
+## A Word to non-Technical Readers
 
-## Non-technical Overview
+If you are a non-technical reader, we believe that you will profit greatly by absorbing the concepts and resources found in the overview chapters from Section One, and also by scanning Chapter 3. The latter, which introduces the case study featured in this book, explains a lot about the importance of Agile/Lean UX and many elements of information architecture which we feel are necessary for the development of any Content Strategy.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a mi ut lectus tempus mattis. Donec posuere augue quam, blandit ultrices elit sodales sit amet. Aenean semper facilisis sem vel pulvinar. Mauris venenatis, nulla sit amet luctus elementum, diam urna bibendum quam, at mattis lectus tortor nec risus. Donec tellus sapien, ultricies sed dictum vel, euismod at nibh. Fusce lacinia dolor ut elementum laoreet. Suspendisse non mi ac sapien commodo condimentum eu et erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris egestas, eros ut rutrum sagittis, magna lorem suscipit tellus, id convallis nisi dolor in ante. Nam sapien enim, egestas in erat at, suscipit tempus orci.
+However, this book is aimed, unabashedly, at a technical audience searching for best resources, best practices, and the best alternatives available to assist you in moving on with your content. 
 
-
-## Technical Community Introduction. What is DurableDrupal Content Migration Rescue?
+## So, What is DurableDrupal Content Migration Rescue all about?
 
 The author of this book, Victor Kane, got a big surprise in March, 2015. And another one just a few months ago.
 
@@ -63,6 +60,8 @@ Although this is a hands-on book, we do need to know what we're doing, so Sectio
 
 In Section 2, we delve right into our DurableDrupal Content Migration case study, so you can too. You can follow each chapter, and links will always be provided to relevant repos.
 
-Then...
+// detailed overview of all sections and chapters goes here
+
+// links to repos and other resources go here
 
 \pagebreak
