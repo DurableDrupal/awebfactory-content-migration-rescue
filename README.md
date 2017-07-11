@@ -2,9 +2,9 @@
 
 > Move On with your Content.
 >
-> From from Drupal Content Monolith to Structured Content Model.
-> 
-> To Open API First Architecture.
+> Migrate from Drupal Content Monolith to Structured Content Model.
+>
+> On an Open and Truly Modern API-First Architecture.
 
 Published using [Pandoc](http://pandoc.org/). See
 
