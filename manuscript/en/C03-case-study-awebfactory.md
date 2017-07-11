@@ -10,7 +10,7 @@ But, it's not about mechanically shunting the legacy content over to a new syste
 
 > We again encourage all readers of this book to master the [Content Modeling Series](http://www.clevegibbon.com/content-modeling/) of articles by Cleve Gibbon. Doing so provides a good foundation for tackling the Design and Implementation of your Content Strategy and Model.
 
-### Drilling down: Anatomy of the Content Model
+### Drilling down. Anatomy of the Content Model
 
 So modeling your content is the discovery of composable [Content Types](#ContentType) made up of [Content Attributes](#ContentAttribute), constituting the business domain based building blocks for the design and implementation of that architecture capable of supporting your Content Strategy.
 
@@ -274,9 +274,9 @@ For now, suffice it is to understand that the Content Model is based on database
 
 > **Important note**: We cannot emphasize enough that the Content Type and its instantiated Content Item have **nothing to do at all with rendering**, neither as part of the Content Management form in the CMS (or any specified editing widget), nor as part of the rendering of the content item in the CWA. This principle of structured content and separation of concerns, the very thing that makes [COPE](#Cope "Create Once and Publish Everywhere") possible, is violated in practically all "API-First" CMSes, or else hidden behind paywalls in closed "Cloud CMS" systems. (*Which is why Contenta would be so cool if it wasn't based hobbled by Drupal 8 being the only [SCS](#SCS "Structured Content Server") option*).
 
-### Concrete Steps Involved in Carrying Out the Migration
+### The AWebFactory.com case study migration from start to finish
 
-Now that we have a clear idea of the Content Model itself, let's take a look at the actual steps that need to be taken from start to finish in order to perform the complete Content Migration, that we will be following in detail in the upcoming chapters in this section:
+Now that we have a clear idea of the Content Model itself, let's review the actual steps that need to be taken in order to carry out the Content Migration process we will be following in the upcoming chapters.
 
 #### Legacy content inventory
 
