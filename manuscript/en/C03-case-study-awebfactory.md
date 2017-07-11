@@ -276,7 +276,7 @@ For now, suffice it is to understand that the Content Model is based on database
 
 ### The AWebFactory.com case study migration from start to finish
 
-Now that we have a clear idea of the Content Model itself, let's review the actual steps that need to be taken in order to carry out the Content Migration process we will be following in the upcoming chapters.
+Now that we have a clear idea of the Content Model itself, let's review the actual steps that need to be taken in order to carry out the Content Migration process we will be following in the upcoming chapters for AWebFactory.com.
 
 #### Legacy content inventory
 
