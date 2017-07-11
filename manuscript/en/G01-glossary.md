@@ -1,5 +1,19 @@
 ## Glossary
 
+### Agile/Lean UX Glossary
+
+#### Analysis and Design {#AnalysisAndDesign}
+
+Analysis and Design.
+
+#### Business Model {#BusinessModel}
+
+Business Model definition.
+
+#### Feature List {#FeatureList}
+
+Feature List definition.
+
 ### Content Model Glossary
 
 #### Content Model {#ContentModel}

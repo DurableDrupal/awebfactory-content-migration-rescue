@@ -1,4 +1,4 @@
-## Chapter 6. AWebFactory.com. Initial Migration Iteration.
+## Chapter 6. AWebFactory.com. Initial Migration Iteration. {#Chapter6}
 
 ### Structured Content Server with Node.js, Express.js and MongoDB
 

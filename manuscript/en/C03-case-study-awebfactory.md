@@ -1,22 +1,5 @@
 ## Chapter 3. Case Study: AWebFactory.com
 
-- [Chapter 3. Case Study: AWebFactory.com](#chapter-3-case-study-awebfactory-com)
-    - [Where are we coming from? Where are we going?](#where-are-we-coming-from-where-are-we-going)
-    - [Drilling down: Anatomy of the Content Model](#drilling-down-anatomy-of-the-content-model)
-        - [The Content Modeling Process](#the-content-modeling-process)
-        - [The Content Model Schema](#the-content-model-schema)
-    - [Concrete Steps Involved in Carrying Out the Migration](#concrete-steps-involved-in-carrying-out-the-migration)
-        - [Legacy Content Inventory](#legacy-content-inventory)
-            - [Drush Scripts to ascertain lists of legacy content items, and its existing structure (content types and categories)](#drush-scripts-to-ascertain-lists-of-legacy-content-items-and-its-existing-structure-content-types-and-categories)
-        - [Content Modeling](#content-modeling)
-            - [The Target Content Model](#the-target-content-model)
-            - [Adapting Legacy Content to the Target Content Model](#adapting-legacy-content-to-the-target-content-model)
-        - [Implementation of the Content Model on the SCS](#implementation-of-the-content-model-on-the-scs)
-        - [Adaptation of legacy content to the target Content Model via Drush Scripts.](#adaptation-of-legacy-content-to-the-target-content-model-via-drush-scripts)
-        - [Iterative and Incremental Migration to the SCS of the legacy content via Adaptive Drush Scripts](#iterative-and-incremental-migration-to-the-scs-of-the-legacy-content-via-adaptive-drush-scripts)
-        - [Testing the Structured Content Server](#testing-the-structured-content-server)
-        - [Writing an initial Client Web Application](#writing-an-initial-client-web-application)
-
 ### Where are we coming from? Where are we going?
 
 Let's take a step back and get a good look at the Migration Process we have before us as we dive into the nitty gritty of the case study at hand: the migration of AWebFactory.com. What do we have now and What will we have when the migration is complete? See Figure 1.
@@ -293,39 +276,50 @@ For now, suffice it is to understand that the Content Model is based on database
 
 ### Concrete Steps Involved in Carrying Out the Migration
 
-Now that we have a clear idea of the Content Model itself, let's take a look at the actual steps that need to be taken from start to finish in order to complete the Content Migration, that we will be following in detail in the upcoming chapters in this section:
+Now that we have a clear idea of the Content Model itself, let's take a look at the actual steps that need to be taken from start to finish in order to perform the complete Content Migration, that we will be following in detail in the upcoming chapters in this section:
 
-* Legacy Content Inventory
-    * Drush Scripts to ascertain lists of legacy content items, and its existing structure (content types and categories)
-* Content Modeling
-    * The Target Content Model
-    * Adapting Legacy Content to the Target Content Model
-* Implementation of the Content Model on the SCS
-* Adaptation of legacy content to the target Content Model via Drush Scripts.
-* Iterative and Incremental Migration to the SCS of the legacy content via Adaptive Drush Scripts
-* Testing the Structured Content Server
-* Writing an initial Client Web Application
+#### Legacy content inventory
 
-#### Legacy Content Inventory
+Drush Scripts are developed to ascertain lists of legacy content items, and its existing structure (content types and categories), if any. Modules like drush view xxx and view content inventory are a great help here. See [Chapter 4. AWebFactory.com. Content Inventory.](#Chapter4) for details and access to code.
 
-Drush scripts are developed purely for this purpose, leaning heavily upon modules like drush view.
+#### [Analysis and Design](#AnalysisAndDesign) of the target Content Model
 
-##### Drush Scripts to ascertain lists of legacy content items, and its existing structure (content types and categories)
+The target [Content Model](#ContentModel) is analyzed and designed according to the [Business Model](#BusinessModel) and [Feature List](#FeatureList). Details, code and How Tos in [Chapter 5. AWebFactory.com. Content Modeling.](#Chapter5).
 
-#### Content Modeling
+> Note: It's important to take into account that this modeling is carried out in the context of the new Business Model and Functional Requirements, and that the legacy content structure will have to adapt to the new target model as a result.
 
-##### The Target Content Model
+#### Initial migration iteration
 
-##### Adapting Legacy Content to the Target Content Model
+The [SCS](#SCS "Structured Content Server") is implemented with [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/) and [MongoDB Database](https://www.mongodb.com/community).
 
-#### Implementation of the Content Model on the SCS
+The initial Content Model Design is prototyped as [Mongoose Schema](#MongooseSchema). 
 
-#### Adaptation of legacy content to the target Content Model via Drush Scripts.
+On the Legacy side, an initial version of the Drush Migration Script is written and connected to the SCS REST API, and initial testing is performed. Details, code and How Tos in [Chapter 6. AWebFactory.com. Initial Migration Iteration](#Chapter6).
 
-#### Iterative and Incremental Migration to the SCS of the legacy content via Adaptive Drush Scripts
+#### Complete iterative and incremental migration to the SCS of the legacy content via adaptive drush scripts
 
-#### Testing the Structured Content Server
+The Legacy side Drush Script is extended to cover adaptation of as much legacy content to the target 
+
+Details, code and How Tos in [Chapter 7. AWebFactory.com. Complete Migration Iterations and Testing for the entire Content Model](#Chapter7).
 
 #### Writing an initial Client Web Application
+
+Details, code and How Tos in [Chapter 8. AWebFactory.com. Vue.js/Nuxt.js based universal Front EndApp](#Chapter8).
+
+#### Characteristics of the API-First CMS
+
+Details, code and How Tos in [Chapter9. AWebFactory.com. API-First CMS](#Chapter9).
+
+#### Using the Legacy Site as the CMS
+
+Details, code and How Tos in [Chapter 10. AWebFactory.com. API-First CMS. Use the Legacy Site.](#Chapter10)
+
+#### An Up-to-date review of current API-First Alternatives
+
+Details, code and How Tos in [Chapter 11. AWebFactory.com. API-First CMS. Alternatives.](#Chapter11)
+
+#### Rolling your own API-First CMS
+
+Details, code and How Tos in [Chapter 12. AWebFactory.com. API-First CMS. Roll our own.](#Chapter12)
 
 \pagebreak
