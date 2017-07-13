@@ -16,6 +16,22 @@ Feature List definition.
 
 ### Content Model Glossary
 
+#### Content Attribute {#ContentAttribute}
+
+Content Type field data type
+
+#### Content Audit
+
+Documents that allow you to review page-by-page how content is performing against predefined measures of quality and effectiveness.
+
+#### Content Inventory (#ContentInventory)
+
+A Content Inventory is an internal list of content items, filterable by business goals and audience interests and goals. The objective is to prioritize content items by their value in order to decide what to keep and what to discard.
+
+#### Content Item {#ContentItem}
+
+An instantiation of a Content Type. In the case of a Node.js Mongoose implementation, this would be a document forming part of a collection.
+
 #### Content Model {#ContentModel}
 
 A Collection of Content Types
@@ -23,14 +39,6 @@ A Collection of Content Types
 #### Content Type {#ContentType}
 
 A Collection of Content Attributes
-
-#### Content Attribute {#ContentAttribute}
-
-Content Type field data type
-
-#### Content Item {#ContentItem}
-
-An instantiation of a Content Type. In the case of a Node.js Mongoose implementation, this would be a document forming part of a collection.
 
 #### COPE {#Cope}
 
