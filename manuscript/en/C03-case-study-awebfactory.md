@@ -32,7 +32,7 @@ In a competent software development team of any kind, the initial planning phase
 * Business Requirements Gathering and Business Modeling
 * Requirement Gathering and the definition of Project Scope
 * The listing of value hypotheses and sub-hypotheses together with the definition of the minimum set of features required to test them (that is the minimum viable product, the scope of the project)
-* A collaborative Design Studio user experience brainstorming among the entire team to associate user experience wireframes with the features.
+* A collaborative Design Studio user experience brainstorming among the entire team to associate user experience wireframes with the features
 * The decomposition of the features into user stories and the project backlog
 
 > See my presentation slides [Setting up a Reusable and DurableDrupal
@@ -43,15 +43,15 @@ Each user story in the backlog is then taken up by assigned team members, and th
 * Together with the client, an acceptance test is written.
 * Analysis is performed
     * Each user story is decomposed with the help of the Unified Modeling Language or similar into analytical objects theoretically capable of supporting the functionality involved.
-    * These analytical objects are of three types: entity (data model), boundary (view) and controller, corresponding to the MVC (model-view-controller) pattern.
+    * These analytical objects are of three types: entity (data model), boundary (view) and controller, corresponding to the MVC (model-view-controller) pattern
     * Simultaneously, the boundary objects are associated with the front end mockups, the entity objects conform the domain model, and the controller objects conform the beginnings of a class model to ascertain the modules capable of supporting the business logic.
 * Design is performed
     * The class or module diagram is refined from the controller objects
-    * The data model is refined from the domain model.
+    * The data model is refined from the domain model
     * The presentation layer is refined from the boundary objects and mockups
 * Implementation and unit testing is performed
 * Acceptance testing is performed
-* Rinse and repeat all steps until the Acceptance test is passed.
+* Rinse and repeat all steps until the Acceptance test is passed
 
 > Note: The acceptance test should usually involve [end-to-end testing](https://dzone.com/articles/nightmare-of-end-to-end-testing): notice that unit testing should really be considered part of the coding discipline.
 
