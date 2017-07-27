@@ -187,7 +187,7 @@ CMSes surveyed:
 
 We have investigated additional CMS having similar characteristics:
 
-* Ponzu written in Go Written in [Go](https://golang.org/) is a pure headless (API first) CMS. Suggested to us by amigo Joaquín Bravo Contreras of [Axai](http://www.axai.com.mx/). Like Keystone and Drupal, it works on an architecture of fields and content types (sound familiar?), which definitely looks like the way to go. In fact, with go, you define the fields for content type on the command line including the editor that you want for the field. For example: `content string: textarea:rte, another field...`
+* Ponzu Written in [Go](https://golang.org/) is a pure headless (API first) CMS. Suggested to us by amigo Joaquín Bravo Contreras of [Axai](http://www.axai.com.mx/). Like Keystone and Drupal, it works on an architecture of fields and content types (sound familiar?), which definitely looks like the way to go. In fact, with go, you define the fields for content type on the command line including the editor that you want for the field. For example: `content string: textarea:rte, another field...`
 This is the first step. There is no second step.
     * See [Ponzu CMS](https://github.com/ponzu-cms/ponzu)
     * [Video introduction](https://www.youtube.com/watch?v=T_1ncPoLgrg)
