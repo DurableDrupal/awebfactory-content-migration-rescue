@@ -213,7 +213,7 @@ The series was [completed in October, 2016](http://www.clevegibbon.com/2016/10/c
 
 #### "Should we upgrade to Drupal 8?" No.
 
-Drupal 8 was too much, too late. Still monolithic, it launched in November, 2015, almost five years after Drupal 7. Almost two years later, still not widely adopted, already a declining trend, it was desperately trying to sell itself as an "API-First" and "decoupled" back-end solution (admitting that the front end was a total failure) despite it being even less performant, and hence non-scalable, than its predecessor. 
+At the time of writing this book, two-year-old Drupal 8 is still not widely adopted and already a declining trend. Was too much, too late. Still monolithic, it launched in November, 2015, almost five years after Drupal 7. it was desperately trying to sell itself as an "API-First" and "decoupled" back-end solution (admitting that the front end was a total failure) despite it being even less performant, and hence non-scalable, than its predecessor. 
 
 It was also a complete re-write, with xxxx of the code changed. While [Laravel](https://laravel.com/), also based on [Symfony](https://symfony.com/), became the life of the PHP party framework (Laravel is not the hare and the duck at the same time) as it all but embraced Vue.js as its front end, and would be the obvious serious choice in the PHP server-side world.
 
