@@ -201,7 +201,7 @@ This is the first step. There is no second step.
 
 #### 2017 But we want a CMS that writes to a decoupled SCS (Structured Content Server)
 
-All of these choices oblige you to use the CMS also as the SCS (Structured Content Server). What we at AWebFactory is to decouple these two processes. Most of this book is dedicated to showing how this can be done, and we offer a detailed guide accompanying actual free software and open source code repositories you can download and actually use. We are the only ones doing this.
+All of these choices oblige you to use the CMS also as the SCS (Structured Content Server). What we at AWebFactory are attemptig to do is to decouple these two processes. Most of this book is dedicated to showing how this can be done, and we offer a detailed guide accompanying actual free software and open source code repositories you can download and actually use. We are the only ones doing this.
 
 #### 2017 Let's talk about that Content Model. Cleve Gibbon's Series of Articles FTW.
 
