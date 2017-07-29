@@ -66,7 +66,7 @@ It is in this best practices process engineering context that the [Content Model
 Now, at the end of the day, a Content Model must be implemented as a Database Schema of some kind. In our case study involving AWebFactory.com, our target migration database is [MongoDB](https://www.mongodb.com/download-center#community).
 
 On the [SCS](#SCS "Structured Content Server"), [Content Types](#ContentType) making up the [Content Model](#ContentModel) are implemented as valid [Mongoose Schema](http://mongoosejs.com/docs/guide.html). These are organized as composable hierarchies of [Content Attributes](#ContentAttribute). These may be either a primitive Content Attributes corresponding to a
-valid [Mongoose SchemaType](#MongooseSchemaType "such as String, Number, etc."); or an embeddable sub-schema, itself made up of Mongoose SchemaType attributes, and sometimes even other embeddable sub-schema in turn. A Content Attribute mny also be specified as a JSON object, or as an array of Content Attributes.
+valid [Mongoose SchemaType](#MongooseSchemaType "such as String, Number, etc."); or an embeddable sub-schema, itself made up of Mongoose SchemaType attributes, and sometimes even other embeddable sub-schema in turn. A Content Attribute may also be specified as a JSON object, or as an array of Content Attributes.
 
 A diagram will help us visualize the different kinds of [Content Attributes](#ContentAttribute) composing the domain specific [Content Types](#ContentType).
 
