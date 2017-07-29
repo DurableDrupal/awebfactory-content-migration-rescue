@@ -1,6 +1,6 @@
 ## Chapter 4. AWebFactory.com. Content Inventory. {#Chapter4}
 
-We're actually going to do a great content inventory and audit, but also, as part of that process, prepare ourselves for [Chapter 6. AWebFactory.com. Initial Migration Iteration.](#Chapter 6) by readying and running Drush migration scripts to standard out. These will be run in Chapter 6 and will upsert all content to the [SCS](#SCS "Structured Content Server"), which will be created at that time also.
+We're actually going to do a great content inventory and audit, but also, as part of that process, prepare ourselves for [Chapter 6. AWebFactory.com. Initial Migration Iteration.](#Chapter6) by readying and running Drush migration scripts to standard out. These will be run in Chapter 6 and will upsert all content to the [SCS](#SCS "Structured Content Server"), which will be created at that time also.
 
 Right now, and in [Chapter 5. AWebFactory.com. Content Modeling](#Chapter5), we are going to concentrate on our content!
 
