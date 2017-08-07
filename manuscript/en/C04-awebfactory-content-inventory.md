@@ -1,25 +1,6 @@
 ## Chapter 4. AWebFactory.com. Content Inventory. {#Chapter4}
 
-- [Chapter 4. AWebFactory.com. Content Inventory. {#Chapter4}](#chapter-4-awebfactory-com-content-inventory-chapter4)
-    - [Why do a [Content Inventory](#ContentInventory)?](#why-do-a-content-inventory-contentinventory)
-    - [How do people do [Content Inventories](#ContentInventory)?](#how-do-people-do-content-inventories-contentinventory)
-    - [We're rolling our own with Drush](#we-re-rolling-our-own-with-drush)
-        - [Lit: Content Inventory Step 1: Clone the Drush scripts repo](#lit-content-inventory-step-1-clone-the-drush-scripts-repo)
-        - [Lit: Content Inventory Step 2: Run the Content listing dd_script1 to see what we've got](#lit-content-inventory-step-2-run-the-content-listing-dd_script1-to-see-what-we-ve-got)
-        - [Lit: Content Inventory Step 3: Run the Drupal Content Types Discovery dd_script2](#lit-content-inventory-step-3-run-the-drupal-content-types-discovery-dd_script2)
-        - [Lit: Content Inventory Step 4: Apply the Drupal Content Types Discovery Script recommendations to adapt the Content Types Migration dd_script3](#lit-content-inventory-step-4-apply-the-drupal-content-types-discovery-script-recommendations-to-adapt-the-content-types-migration-dd_script3)
-        - [Lit: Rinse and repeat with the Users and User Roles scripts](#lit-rinse-and-repeat-with-the-users-and-user-roles-scripts)
-        - [Lit: Rinse and repeat with the Taxonomy Scripts](#lit-rinse-and-repeat-with-the-taxonomy-scripts)
-        - [AWebFactory: Content Inventory Step 1: Clone the Drush scripts repo](#awebfactory-content-inventory-step-1-clone-the-drush-scripts-repo)
-        - [AWebFactory: Content Inventory Step 2: Run the Content listing dd_script1 to see what we've got](#awebfactory-content-inventory-step-2-run-the-content-listing-dd_script1-to-see-what-we-ve-got)
-        - [AWebFactory: Content Inventory Step 3: Run the Drupal Content Types Discovery dd_script2](#awebfactory-content-inventory-step-3-run-the-drupal-content-types-discovery-dd_script2)
-        - [AWebFactory: Content Inventory Step 4: Apply the Drupal Content Types Discovery Script recommendations to adapt the Content Types Migration dd_script3](#awebfactory-content-inventory-step-4-apply-the-drupal-content-types-discovery-script-recommendations-to-adapt-the-content-types-migration-dd_script3)
-        - [AWebFactory: Rinse and repeat with the Users and User Roles scripts](#awebfactory-rinse-and-repeat-with-the-users-and-user-roles-scripts)
-        - [AWebFactory: Rinse and repeat with the Taxonomy Scripts](#awebfactory-rinse-and-repeat-with-the-taxonomy-scripts)
-    - [On WordPress? You can use the same techniques for a WordPress Content Migration Rescue](#on-wordpress-you-can-use-the-same-techniques-for-a-wordpress-content-migration-rescue)
-
-
-We're actually going to do a great content inventory and audit, but also, as part of that process, prepare ourselves for [Chapter 6. AWebFactory.com. Initial Migration Iteration.](#Chapter 6) by readying and running Drush migration scripts to standard out. These will be run in Chapter 6 and will upsert all content to the [SCS](#SCS "Structured Content Server"), which will be created at that time also.
+We're actually going to do a great content inventory and audit, but also, as part of that process, prepare ourselves for [Chapter 6. AWebFactory.com. Initial Migration Iteration.](#Chapter6) by readying and running Drush migration scripts to standard out. These will be run in Chapter 6 and will upsert all content to the [SCS](#SCS "Structured Content Server"), which will be created at that time also.
 
 Right now, and in [Chapter 5. AWebFactory.com. Content Modeling](#Chapter5), we are going to concentrate on our content!
 

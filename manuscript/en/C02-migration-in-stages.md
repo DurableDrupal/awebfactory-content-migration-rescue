@@ -111,7 +111,7 @@ Examples of API first CMS:
     * [Contentful](https://www.contentful.com/)
         Contentful also provides a Structured Content Server as part of its cloud-based offering.
         * [Contentful Concepts](https://www.contentful.com/developers/docs/concepts/)
-        * [**Contentful Data Model Concepts**](https://www.contentful.com/developers/docs/concepts/data-model/)
+        * [Contentful Data Model Concepts](https://www.contentful.com/developers/docs/concepts/data-model/)
         * [Contentful Docs](https://www.contentful.com/developers/docs/)
         * [API References - Content Deliver, Content Management, Content Preview, Image APIs](https://www.contentful.com/developers/docs/references/)
     * [Cosmic JS](https://cosmicjs.com/)
