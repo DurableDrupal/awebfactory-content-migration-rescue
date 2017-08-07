@@ -57,8 +57,8 @@ And finally, we need to consider that a Content Inventory and Audit is definitel
             * Creates view "content_audit" depends on Vews Data Export module
             * [Repo](https://www.drupal.org/project/2476703/git-instructions)
             * [Views Data Export module](https://www.drupal.org/project/views_data_export)
-                * Use to export data from the output of **views** `drush views-data-export [view-name] [display-id] [output-file]`
-                * [docs](https://www.drupal.org/node/1820452)
+            * Use Views Data Export module to export data from the output of **views** `drush views-data-export [view-name] [display-id] [output-file]`
+            * [Views Data Export module docs](https://www.drupal.org/node/1820452)
         * [Article on using Views Data Export module for custom content audit views](https://www.bluecoda.com/blog/using-views-export-content-nodes-drupal)
         * [2011 article but very useful on content audit: Content inventory and content audit with Views](http://drupalsun.com/lisa/2011/04/10/content-inventory-and-content-audit-views)
         * [Content Inventory and Audit Tools Distro](https://www.drupal.org/sandbox/jakcette/2476703)
