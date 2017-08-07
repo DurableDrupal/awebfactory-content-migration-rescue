@@ -14,13 +14,13 @@ But, it's not about mechanically shunting the legacy content over to a new syste
 
 So modeling your content is the discovery of composable [Content Types](#ContentType) made up of [Content Attributes](#ContentAttribute), constituting the business domain based building blocks for the design and implementation of that architecture capable of supporting your Content Strategy.
 
-More simply put, if, for example, your you are selling T-Shirts, you will have a Content Type Product with Content Attributes SKU, Price, Stock, and so on. And there will be a workflow for the creation, publication, modification and deletion of these product items. And so on.
+More simply put, if, for example, your you are selling T-Shirts, you will have a Content Type Product with Content Attributes SKU, Type, Price, Stock, and so on. And there will be a workflow for the creation, publication, modification and deletion of these product items. And so on.
 
 #### The Content Modeling Process
 
 Now, there is nothing new or mysterious about "Content Model" or "Content Strategy". The Content Model arises as part of the same iterative and incremental software development process any competent development team will be using these days in the development of any software project.
 
-It simply turns out that the application of an iterative and incremental non-waterfall Agile/Lean UX process to content-centric applications has, as one of its central deliverable, a Content Model.
+It simply turns out that the application of an iterative and incremental non-waterfall Agile/Lean UX process to content-centric applications has, as one of its central deliverables, a Content Model.
 
 > See these important Lean UX references (don't go out of the building without knowing them!):
 - Jeff Gothelf, [Lean UX Applying Lean Principles to Improve User Experience](http://shop.oreilly.com/product/0636920021827.do)
@@ -33,7 +33,7 @@ In a competent software development team of any kind, the initial planning phase
 * Requirement Gathering and the definition of Project Scope
 * The listing of value hypotheses and sub-hypotheses together with the definition of the minimum set of features required to test them (that is the minimum viable product, the scope of the project)
 * A collaborative Design Studio user experience brainstorming among the entire team to associate user experience wireframes with the features
-* The decomposition of the features into user stories and the project backlog
+* The decomposition of the features into user stories and the project backlog, defining the MVP (Minimum Viable Product)
 
 > See my presentation slides [Setting up a Reusable and DurableDrupal
 Lean Process Factory](http://awebfactory.com/drupalcon2015lean/#/) for how I view the application of an Agile/Lean UX process to content-centric applications for details.
@@ -65,16 +65,16 @@ It is in this best practices process engineering context that the [Content Model
 
 Now, at the end of the day, a Content Model must be implemented as a Database Schema of some kind. In our case study involving AWebFactory.com, our target migration database is [MongoDB](https://www.mongodb.com/download-center#community).
 
-On the [SCS](#SCS "Structured Content Server"), [Content Types](#ContentType) making up the [Content Model](#ContentModel) are implemented as valid [Mongoose Schema](http://mongoosejs.com/docs/guide.html). These are organized as composable hierarchies of [Content Attributes](#ContentAttribute). These may be either a primitive Content Attributes corresponding to a
+On the [SCS](#SCS "Structured Content Server"), [Content Types](#ContentType) making up the [Content Model](#ContentModel) are implemented as valid [Mongoose Schema](http://mongoosejs.com/docs/guide.html). These are organized as composable hierarchies of [Content Attributes](#ContentAttribute). These may be either a primitive Content Attribute corresponding to a
 valid [Mongoose SchemaType](#MongooseSchemaType "such as String, Number, etc."); or an embeddable sub-schema, itself made up of Mongoose SchemaType attributes, and sometimes even other embeddable sub-schema in turn. A Content Attribute mny also be specified as a JSON object, or as an array of Content Attributes.
 
 A diagram will help us visualize the different kinds of [Content Attributes](#ContentAttribute) composing the domain specific [Content Types](#ContentType).
 
 ![Mongoose, Base and Custom Content Attributes, composing the Domain Specific Content Model](img/content-model.png)
 
-Primitive Content Attributes are the SchemaTypes permitted by the Database ODM (Object Document Model) being used: Mongoose in our case. If we were using a relational database, this would correspond to the Data Types permitted in a relational database oriented ORM (Object Relational Model), for example [Sequelize](http://docs.sequelizejs.com/), used in Node.js code with the MySql databases.
+Primitive Content Attributes are the SchemaTypes permitted by the Database ODM (Object Document Model) being used: Mongoose in our case. If we were using a relational database, this would correspond to the Data Types permitted in a relational database oriented ORM (Object Relational Model), for example [Sequelize](http://docs.sequelizejs.com/), used in Node.js code persisting to MySql databases.
 
-Base Content Attributes are Content Attributes often reused in content-centric applications, and are necessary either because they form separate collections or because they require built-in consistency for repeated embedded use.
+Base Content Attributes are Content Attributes often reused in content-centric applications, and are necessary either because they form separate collections or because they afford built-in consistency for repeated embedded use.
 
 Domain specific Content Attributes are those arising out of the analysis and design of the domain model of the specific application, its scope and business model context. Article for blogs or newspapers, Product for e-commerce applications.
 
@@ -305,7 +305,7 @@ On the Legacy side, an initial version of the Drush Migration Script is written 
 
 #### Complete iterative and incremental migration to the SCS of the legacy content via adaptive drush scripts
 
-The Legacy side Drush Script is extended to cover adaptation of as much legacy content to the target 
+The Legacy side Drush Script is extended to cover adaptation of as much legacy content to the target as possible.
 
 Details, code and How Tos in [Chapter 7. AWebFactory.com. Complete Migration Iterations and Testing for the entire Content Model](#Chapter7).
 

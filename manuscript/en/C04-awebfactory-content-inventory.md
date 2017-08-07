@@ -1,5 +1,24 @@
 ## Chapter 4. AWebFactory.com. Content Inventory. {#Chapter4}
 
+- [Chapter 4. AWebFactory.com. Content Inventory. {#Chapter4}](#chapter-4-awebfactory-com-content-inventory-chapter4)
+    - [Why do a [Content Inventory](#ContentInventory)?](#why-do-a-content-inventory-contentinventory)
+    - [How do people do [Content Inventories](#ContentInventory)?](#how-do-people-do-content-inventories-contentinventory)
+    - [We're rolling our own with Drush](#we-re-rolling-our-own-with-drush)
+        - [Lit: Content Inventory Step 1: Clone the Drush scripts repo](#lit-content-inventory-step-1-clone-the-drush-scripts-repo)
+        - [Lit: Content Inventory Step 2: Run the Content listing dd_script1 to see what we've got](#lit-content-inventory-step-2-run-the-content-listing-dd_script1-to-see-what-we-ve-got)
+        - [Lit: Content Inventory Step 3: Run the Drupal Content Types Discovery dd_script2](#lit-content-inventory-step-3-run-the-drupal-content-types-discovery-dd_script2)
+        - [Lit: Content Inventory Step 4: Apply the Drupal Content Types Discovery Script recommendations to adapt the Content Types Migration dd_script3](#lit-content-inventory-step-4-apply-the-drupal-content-types-discovery-script-recommendations-to-adapt-the-content-types-migration-dd_script3)
+        - [Lit: Rinse and repeat with the Users and User Roles scripts](#lit-rinse-and-repeat-with-the-users-and-user-roles-scripts)
+        - [Lit: Rinse and repeat with the Taxonomy Scripts](#lit-rinse-and-repeat-with-the-taxonomy-scripts)
+        - [AWebFactory: Content Inventory Step 1: Clone the Drush scripts repo](#awebfactory-content-inventory-step-1-clone-the-drush-scripts-repo)
+        - [AWebFactory: Content Inventory Step 2: Run the Content listing dd_script1 to see what we've got](#awebfactory-content-inventory-step-2-run-the-content-listing-dd_script1-to-see-what-we-ve-got)
+        - [AWebFactory: Content Inventory Step 3: Run the Drupal Content Types Discovery dd_script2](#awebfactory-content-inventory-step-3-run-the-drupal-content-types-discovery-dd_script2)
+        - [AWebFactory: Content Inventory Step 4: Apply the Drupal Content Types Discovery Script recommendations to adapt the Content Types Migration dd_script3](#awebfactory-content-inventory-step-4-apply-the-drupal-content-types-discovery-script-recommendations-to-adapt-the-content-types-migration-dd_script3)
+        - [AWebFactory: Rinse and repeat with the Users and User Roles scripts](#awebfactory-rinse-and-repeat-with-the-users-and-user-roles-scripts)
+        - [AWebFactory: Rinse and repeat with the Taxonomy Scripts](#awebfactory-rinse-and-repeat-with-the-taxonomy-scripts)
+    - [On WordPress? You can use the same techniques for a WordPress Content Migration Rescue](#on-wordpress-you-can-use-the-same-techniques-for-a-wordpress-content-migration-rescue)
+
+
 We're actually going to do a great content inventory and audit, but also, as part of that process, prepare ourselves for [Chapter 6. AWebFactory.com. Initial Migration Iteration.](#Chapter 6) by readying and running Drush migration scripts to standard out. These will be run in Chapter 6 and will upsert all content to the [SCS](#SCS "Structured Content Server"), which will be created at that time also.
 
 Right now, and in [Chapter 5. AWebFactory.com. Content Modeling](#Chapter5), we are going to concentrate on our content!
@@ -20,11 +39,21 @@ The article [Website Content Inventories. Easier, Faster & More Accurate Results
 >
 > How many pages link to or out of each page?
 
-One additional reason for doing content Inventories mentioned in the article is that they may be used to create [Content Audits](#ContentAudit):
-
+One additiional additional reason for doing content Inventories mentioned in the article is that they may be used to create [Content Audits](#ContentAudit):
+>
 > From a content inventory, you can build content audits, documents that allow you to review page-by-page how content is performing against predefined measures of quality and effectiveness. [CAT, the Content Analysis Tool](http://www.content-insight.com/products/), builds a website content inventory that acts as a foundation for an informed content audit by returning the information you most need to know about your site: how much of it is there, what types of content you have (pages, audio, video, documents), as well as URL structure, which can provide valuable clues as to content types (for example, product pages on an e-commerce site will have similar URL patterns), and how the site is structured (from URL structure perspective).
 
-So, the Content Inventory and Content Audit seems to be the first step towards even starting to work on the [Content Model](#ContentModel) (see next chapter: [Chapter 5. AWebFactory.com. Content Modeling](#Chapter5)).
+Also of extreme importance is the need for a complete list of legacy URLs (especially those having external links) in order to ensure that the migration will be as SEO friendly as possible:
+
+> That’s when a good site crawl tool is a godsend. I recommend [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/). This tool will crawl your site and give you a list of every single URL it finds, as well as a huge range of other information about those URLs, like title tags, canonical tags, meta-robots tags and much more.
+>
+> At this point, it’s helpful to also run a check of all of your externally linked pages on [Moz’s Open Site Explorer](https://moz.com/researchtools/ose/) or [Google Search Console](https://www.google.com/webmasters/#?modal_active=none) to make sure you include each page that is receiving link authority in your content move. Essentially, what you are looking for is any page with one or more external links pointing to it.
+>
+> If you are building new URLs, you want to make sure that each of these pages gets redirected to its corresponding new URL to ensure link authority is retained.
+>
+> <small>Stephen Spencer, [*Relaunching Your Site? Don’t Even Think About It Without A Solid SEO Game Plan!*](http://searchengineland.com/relaunching-site-dont-even-think-without-solid-seo-game-plan-231315)</small>
+
+And finally, we need to consider that a Content Inventory and Audit is definitely a first necessary step towards starting to work on the [Content Model](#ContentModel) (see next chapter: [Chapter 5. AWebFactory.com. Content Modeling](#Chapter5)).
 
 ### How do people do [Content Inventories](#ContentInventory)?
 
@@ -36,8 +65,12 @@ So, the Content Inventory and Content Audit seems to be the first step towards e
         * [CAT](http://www.content-insight.com/products/)
         * [Tools from GatherContent from this Blog Post: How to Perform a Content Audit](https://gathercontent.com/blog/how-to-perform-a-content-audit)
             * [How to Automate your Content Audits](https://gathercontent.com/blog/how-to-automate-your-content-audits)
+        * [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/)
         * [33 Amazing Content Audit Tools for Easy Content Analysis](https://dynomapper.com/blog/12-content-audits/283-top-content-audit-tools)
         * [5 Tools to Help You Audit Your Web Content](https://www.entrepreneur.com/article/244045)
+    * Tools for auditing external links
+        * [Moz’s Open Site Explorer](https://moz.com/researchtools/ose/) 
+        * [Google Search Console](https://www.google.com/webmasters/#?modal_active=none)
     * Drupal content inventory and auditing tools
         * [Content Audit module](https://www.drupal.org/project/content_audit)
             * Creates view "content_audit" depends on Vews Data Export module
@@ -51,46 +84,54 @@ So, the Content Inventory and Content Audit seems to be the first step towards e
 
 ### We're rolling our own with Drush
 
-So to the extent that the legacy site is Drupal based, it makes sense to leverage the list of available Drupal based content inventory and audit tools.
+So to the extent that the legacy site is Drupal based, it makes sense, at least for the purposes of Content Inventory and Content Modeling, to leverage the list of available Drupal based content inventory and audit tools.
 
-Before diving into the details (with examples for Drupal 6 and Drupal 7), let's get an overview of what's involved and the kind of results we can get from these tools.
+Of course you are absolutely free to use any of the methods listed above, or you may want to write your own inventory, audit or migration scripts. We're just sharing here how we did it. Please raise issues in the [issue queue](https://github.com/DurableDrupal/awebfactory-content-migration-rescue/issues) if you would like to discuss a [pull request](https://github.com/DurableDrupal/awebfactory-content-migration-rescue/pulls).
 
-Assuming we have cloned the live production site to a server of our own (TODO see appendices A and B for Drupal 6 and for Drupal 7 sites respectively), we could place our Drush scripts in the `./scripts` folder, outputting to `./scripts/data`
+#### Lit: Content Inventory Step 1: Clone the Drush scripts repo
 
-> TODO You can clone a repo with the drush scripts mentioned below from http://.........
+First, let's go with **Lit**, our Drupal 7 case study [Lit online literary workshop community](http://lit-dev.awebfactory.net/)
 
-* First we get list of enabled modules
-    * `drush pm-list | grep Enabled > data/inv_modules.txt`
-* Secondly, let's grab a list of views
-    * `drush views-list > data/inv_views-list.txt`
-* Now let's try to obtain a content audit (with above modules installed)
-    * `drush views-data-export content_audit page data/inv_content_audit.txt`
-    * `drush views-data-export content_audit views_data_export_2 data/inv_content_audit.xls`
-    * `drush views-data-export content_audit views_data_export_1 data/inv_content_audit.csv`
+```
+****** bookmark TODO *****
+I recommend 
+[Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/). 
+[Moz’s Open Site Explorer](https://moz.com/researchtools/ose/) 
+[Google Search Console](https://www.google.com/webmasters/#?modal_active=none)
 
-The TXT version is useless for processing, but the CSV can be read by a drush file and iterated over.
 
-TODO add in some actual data here for victorkane.me imaginary site (drupal 7) and/or AWebFactory.com (Drupal 6)
+clean everything so no bm references
 
-It's certainly sufficient for our purposes of accumulating raw material as input for our content modeling, and for preparing us to write legacy export scripts using Drush.
+make the repo
 
-So now let's see this how this process works for AWebFactory.com (Drupal 6 and the drupal6 branch of the Drush export scripts repo) and a fictitious site victorkane.me (Drupal 7, the master and drupal7 branch of the drush scripots repo).
+clone and apply to lit
+````
 
-#### List of Drush Content Inventory and Migration scripts.
+#### Lit: Content Inventory Step 2: Run the Content listing dd_script1 to see what we've got
 
-#### Content Inventory Step 1: Clone the Drush scripts repo
+#### Lit: Content Inventory Step 3: Run the Drupal Content Types Discovery dd_script2
+
+#### Lit: Content Inventory Step 4: Apply the Drupal Content Types Discovery Script recommendations to adapt the Content Types Migration dd_script3
+
+#### Lit: Rinse and repeat with the Users and User Roles scripts
+
+#### Lit: Rinse and repeat with the Taxonomy Scripts
+
+Secondly, let's go with **AWebFactory**, our Drupal 6 case study [AWebFactory](http://lit-dev.awebfactory.net/)
+
+#### AWebFactory: Content Inventory Step 1: Clone the Drush scripts repo
 
 Of course you can write your own. But we're sharing here how we did it. Please raise issues in the issue queue.
 
-#### Content Inventory Step 2: Run the Content listing dd_script1 to see what we've got
+#### AWebFactory: Content Inventory Step 2: Run the Content listing dd_script1 to see what we've got
 
-#### Content Inventory Step 3: Run the Drupal Content Types Discovery dd_script2
+#### AWebFactory: Content Inventory Step 3: Run the Drupal Content Types Discovery dd_script2
 
-#### Content Inventory Step 4: Apply the Drupal Content Types Discovery Script recommendations to adapt the Content Types Migration dd_script3
+#### AWebFactory: Content Inventory Step 4: Apply the Drupal Content Types Discovery Script recommendations to adapt the Content Types Migration dd_script3
 
-#### Rinse and repeat with the Users and User Roles scripts
+#### AWebFactory: Rinse and repeat with the Users and User Roles scripts
 
-#### Rinse and repeat with the Taxonomy Scripts
+#### AWebFactory: Rinse and repeat with the Taxonomy Scripts
 
 ### On WordPress? You can use the same techniques for a WordPress Content Migration Rescue
 
