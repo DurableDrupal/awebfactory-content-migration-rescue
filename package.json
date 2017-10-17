@@ -1,0 +1,23 @@
+{
+  "name": "awebfactory-content-migration-rescue",
+  "version": "1.0.0",
+  "description": "GitHub based CMS for book Durable Drupal Content Migration Rescue",
+  "main": "index.js",
+  "scripts": {
+    "upsert": "cd scripts/upsert; node upsert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DurableDrupal/awebfactory-content-migration-rescue.git"
+  },
+  "author": "Victor Kane",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DurableDrupal/awebfactory-content-migration-rescue/issues"
+  },
+  "homepage": "https://github.com/DurableDrupal/awebfactory-content-migration-rescue#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}

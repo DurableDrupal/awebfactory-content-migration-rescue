@@ -3,3 +3,5 @@
 old/*
 _snippets/*
 _preview/*
+config.js
+node_modules/

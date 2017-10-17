@@ -1,0 +1,14 @@
+/**
+ * Example config.js file
+ * Copy this file to `config.js` and edit
+ * inserting local values
+ *
+ */
+var config = {}
+
+// SCS server config
+config.server = {}
+config.server.host = 'example.com'
+config.server.port = '9999'
+
+module.exports = config;
