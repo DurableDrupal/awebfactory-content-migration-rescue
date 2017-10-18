@@ -4,7 +4,7 @@
 
 Let's take a step back and get a good look at the Migration Process we have before us as we dive into the nitty gritty of the case study at hand: the migration of AWebFactory.com. What do we have now and What will we have when the migration is complete? See Figure 1.
 
-![Migration from legacy Drupal to Full Stack](img/migration01.png)
+![Migration from legacy Drupal to Full Stack](http://res.cloudinary.com/awebfactory/image/upload/v1508330600/pub/cmr/migration01.png)
 
 But, it's not about mechanically shunting the legacy content over to a new system. And it's certainly not about making your content feel happy or anything else. It's about discovering that model your content can properly fill, in order to satisfy the needs of your new Business Model. It's about the [Content Model](#ContentModel).
 
@@ -69,7 +69,7 @@ On the [SCS](#SCS "Structured Content Server"), [Content Types](#ContentType) ma
 
 A diagram will help us visualize the different kinds of [Content Attributes](#ContentAttribute) composing the domain specific [Content Types](#ContentType).
 
-![Mongoose, Base and Custom Content Attributes, composing the Domain Specific Content Model](img/content-model.png)
+![Mongoose, Base and Custom Content Attributes, composing the Domain Specific Content Model](http://res.cloudinary.com/awebfactory/image/upload/v1508330591/pub/cmr/content-model.png)
 
 Primitive Content Attributes are the SchemaTypes permitted by the Database ODM (Object Document Model) being used: Mongoose in our case. If we were using a relational database, this would correspond to the Data Types permitted in a relational database oriented ORM (Object Relational Model), for example [Sequelize](http://docs.sequelizejs.com/), used in Node.js code persisting to MySql databases.
 
@@ -81,7 +81,7 @@ And Content Items (instantiations of Content Types) in the form of MongoDB Docum
 
 Now let's drill down in this second diagram to help us grasp in more detailed fashion the composition of the Author Content Type within the Content Model as a whole:
 
-![Domain Specific Author Content Type](img/author-content-type.png)
+![Domain Specific Author Content Type](http://res.cloudinary.com/awebfactory/image/upload/v1508330546/pub/cmr/author-content-type.png)
 
 We can see primitive ODM level, Base and Domain specific [Content Attributes](#ContentAttribute).
 
