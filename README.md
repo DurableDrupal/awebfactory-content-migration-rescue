@@ -12,12 +12,7 @@ Published using [Pandoc](http://pandoc.org/). See
 * [Pandoc Installation Guide](http://pandoc.org/installing.html)
 * [Pandoc examples](http://pandoc.org/demos.html)
 
-You will need to install latex for PDF generation. For example, on Ubuntu and derivates:
-
-``` bash
-sudo apt-get install latex
-sudo apt-get install texlive-xetex
-```
+You will need to install latex for PDF generation (see above installation page for up-to-date references).
 
 To generate output for the **English version** once Pandoc is installed on your system, do the following:
 

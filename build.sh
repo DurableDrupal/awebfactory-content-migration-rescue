@@ -1,5 +1,6 @@
 #!/bin/bash
 # execution for Spanish: ./build.sh es
+# execution for English: ./build.sh en
 
 lang=$1
 
