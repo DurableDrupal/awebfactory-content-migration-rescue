@@ -17,10 +17,17 @@ if (process.argv.length > 1) {
 
 const file = '../../manuscript/' + lang + '/' + 'toc.txt'
 
-// grab toc file
+// possible future use, for now toc is sent as part of the generated single book file
+// grab toc file (works)
+/*
 fs.readFile(file, 'utf8', function (err,toc) {
     if (err) {
       return console.log(err)
     }
     console.log('toc', toc)
+    var tocArray = toc.toString().split("\n");
+    console.log("tocArray", tocArray)
 })
+*/
+
+
