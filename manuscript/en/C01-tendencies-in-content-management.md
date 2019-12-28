@@ -236,7 +236,7 @@ Article: [How Does JSON:API Compare To REST and GraphQL?](https://nordicapis.com
 > This library creates a JSON API-compliant REST API from your Node app and automatically generates API documentation. 
 
 
-Dries rips this off at: [Headless CMS: REST vs JSON:API vs GraphQL](https://dri.es/headless-cms-rest-vs-jsonapi-vs-graphql)
+Dries gives his two cents and comes to his usual pragmatic "easy to do" alternative that guarantees to keep Drupal obsolete, but at least he is protecting himself from the "takers" and defeinding the "makers" so they have less to do and can get to Acquia's market quicker: [Headless CMS: REST vs JSON:API vs GraphQL](https://dri.es/headless-cms-rest-vs-jsonapi-vs-graphql)
 
 \pagebreak
 
