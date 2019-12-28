@@ -217,4 +217,26 @@ Drupal 8 was too much, too late. Still monolithic, it launched in November, 2015
 
 It was also a complete re-write, with xxxx of the code changed. While [Laravel](https://laravel.com/), also based on [Symfony](https://symfony.com/), became the life of the PHP party framework (Laravel is not the hare and the duck at the same time) as it all but embraced Vue.js as its front end, and would be the obvious serious choice in the PHP server-side world.
 
+#### 2018 Decoupled Drupal in Practice
+
+Book with forward by Dries: [Preston So, *Decoupled Drupal in Practice. Architect and Implement Decoupled Drupal Architectures Across the Stack*. October, 2018. Authors: So, Preston](https://www.apress.com/gp/book/9781484240717)
+
+#### 2019 How to decouple Drupal in 2019
+
+Dries tells all and points the way in a January 2019 Blog post: [How to decouple Drupal in 2019](https://dri.es/how-to-decouple-drupal-in-2019)
+
+#### REST, JSON:API, GraphQL
+
+Article: [How Does JSON:API Compare To REST and GraphQL?](https://nordicapis.com/how-does-jsonapi-compare-to-rest-and-graphql/)
+
+[Implementations (including Node.js) of jsonapi](https://jsonapi.org/implementations/)
+
+[npm package json-api](https://www.npmjs.com/package/json-api).
+
+> This library creates a JSON API-compliant REST API from your Node app and automatically generates API documentation. 
+
+
+Dries rips this off at: [Headless CMS: REST vs JSON:API vs GraphQL](https://dri.es/headless-cms-rest-vs-jsonapi-vs-graphql)
+
 \pagebreak
+
