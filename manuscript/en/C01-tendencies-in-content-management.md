@@ -1,10 +1,21 @@
+C01-tendencies-in-content-management
+
 ## Chapter 1. Tendencies in Content Strategy, Architecture, Management and Delivery.
+
+Let's go beyond the buzzwords ("headless", "decoupled", etc.) and, frankly, everything that fits in with the plans of Big Tech capital (only care about appearances and marketing, do nothing towards improvements in separation of concerns ([Drupal 7 release](https://www.drupal.org/drupal-7-released)), instead keep the complexity and the mystification you can charge through the nose for) and hides what's good for agencies really looking to improve things, really looking to "get off the island" of the monolith.
+
+Because the monolith has already died some time ago, actually, and truly decoupled architectures have already taken center stage. The lighting rise of freely creative organizations and their offerings, like [GatsbyJS](https://www.gatsbyjs.org/) and [react-admin](https://marmelab.com/react-admin/) prove this. Instead of pouring millions into preserving a falsely "decoupled" Drupal (and even then, fall over themselves pointing out the "dangers" and "risks" involved), they are trying to keep Drupal smack bang in the middle of the road, blocking the bridge.
+
+Let's try to understand this clearly, it has a lot to do with decisions we take concerning our stuff.
+
+> This chapter was written in 2017, and I'm proud of the tendencies I outlined. I've simply added sections for 2018 and 2019, which do nothing more than underline how Big Tech is striving so hard to hijack "decoupled" [Drupal](https://www.drupal.org/) in order to keep the obsolete, slow, "enterprise" oriented Drupal alive. We need to demystify true decoupling, make strategies and rescue our stuff, trapped back behind on the other side of the wall that must come down: Drupal.
 
 ### Timeline of Change
 
-But the change had started, as it always does in these cases, off the island. And had made their presence felt by coming through in waves. Exactly how, over the past few years, had those waves of change made themselves felt?
+But change had started, as it always does in these cases, off the island. And the change made its presence felt by coming through in waves. Our jaws drop, in 2020, when we review exactly how, over the past few years, these waves of change made themselves felt.
 
-#### 2009 - A brave and honest 
+#### 2009 - A brave and honest line in the sand
+
  - Smallcore Manifesto
 
 In [A Smallcore Manifesto: Help Us Build a Better Teddy Bear](https://developmentseed.org/blog/2009/oct/28/smallcore-manifesto-help-us-build-better-teddy-bear/) author [Adrian Rossouw](https://github.com/AdrianRossouw) (then part of the [Development Seed](https://developmentseed.org/), which [abandoned Drupal](https://www.quora.com/Why-did-Development-Seed-abandon-Drupal) a year later) explains the growing (even then) limitations of the Drupal monolith clearly and succinctly.
@@ -50,7 +61,7 @@ Despite the superficiality and failure to take a stand, at least the taboo was b
 * 
 #### 2013 Lullabot and friends discover and evangelize COPE and Structured Content
 
-COPE and the Content Model to arrive on the island by snail mail and Lullabot in general, with Jeff Eaton in particular, prove themselves once again (now that Development Seed has abandoned Drupal and discovered [Static Site Generators in 2012](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)) quite the pioneer.
+COPE and the Content Model start to arrive on the island by snail mail and Lullabot in general, with Jeff Eaton in particular, prove themselves once again (now that Development Seed has abandoned Drupal and discovered [Static Site Generators in 2012](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)) quite the pioneer.
 
 * [2013 - Daniel Jacobson and Jeff Eaton on NPR's COPE and Content APIs](https://www.lullabot.com/podcasts/insert-content-here/daniel-jacobson-on-nprs-cope-and-content-apis) 
 * [2013 - building for the post-mobile world](https://speakerdeck.com/eaton/building-for-the-post-mobile-world)
@@ -86,7 +97,7 @@ COPE and the Content Model to arrive on the island by snail mail and Lullabot in
 
 #### 2015 Lullabot dumps Drupal on its website and moves on to Full Stack
 
-Calling it "headless Drupal" this historical watershed kept Drupal around as CMS but extirpated it completely from the Content Delivery system (something not readily apparent from the official announcement)
+Calling it "headless Drupal" this historical watershed kept Drupal around as CMS but extirpated it completely from the online Content Delivery system (something not readily apparent from the official announcement)
 
 Ahead of its time, the architecture continues to be at least an evolutionary option for those migrating to a Full Stack solution.
 
@@ -221,6 +232,20 @@ It was also a complete re-write, with xxxx of the code changed. While [Laravel](
 
 Book with forward by Dries: [Preston So, *Decoupled Drupal in Practice. Architect and Implement Decoupled Drupal Architectures Across the Stack*. October, 2018. Authors: So, Preston](https://www.apress.com/gp/book/9781484240717)
 
+This book highlights Contenta, and even goes into detail on ContentaJS, but hides, in a Big Tech way, its real reason for being. That real reason is explained right on the [ContentaJS repo](https://github.com/contentacms/contentajs) itself:
+
+> Contenta CMS (aka *the Drupal part*) is designed to serve your project’s content. ContentaJS (aka *the node.js part*) is designed to serve the requests to your client side applications.
+>
+> You may need ContentaJS because for many reasons you will end up needing a node.js server for your project anyways. You may as well use an opinionated and optimized starter kit that will solve many of your needs without effort. <small>[edit: can't help but laughing out loud there]</small>
+>
+> [Server side Rendering] Chances are that you are building a website as part of your digital project. In most cases you will be using a front-end framework like React, Vue, Angular, etc. All of those frameworks recommend using server-side rendering for many reasons. In order to implement server-side rendering you will need a node.js server.
+>
+> [Performance: our emphasis:] **Your LAMP stack (or alternative) runs your Contenta CMS installation. We all know how flexible and powerful Drupal is. But at the same time it is not great from a performance point of view. In fact it can rapidly become your bottleneck.**
+
+Take aways: Drupal as a content server is a performance bottleneck, and if you use a front end framework like React or Vue, it is incapable of doing server side rendering. So if we use Drupal as a CMS we have to deal with a bunch of cache difficulties between it (in real time??? that's crazy) and the Node.js "reverse proxy server" (in So's words, reducing the structured content server to a secondary level like Varnish, and enhancing the importance of Drupal as the CMS). But don't worry, as we shall see a little later, there exist many options for CMS. In fact the whole idea of truly decoupled architecture is that you can use whatever you like, it's the CMS that can be changed at any time, easily.
+
+Question for ContentaJS people: Hello "fork and go", last commit in master and last release 7 months ago (as of this writing on Dec 29 2019)? Wot's going on, nothing, or are you going private?
+
 #### 2019 How to decouple Drupal in 2019
 
 Dries tells all and points the way in a January 2019 Blog post: [How to decouple Drupal in 2019](https://dri.es/how-to-decouple-drupal-in-2019)
@@ -235,8 +260,6 @@ Article: [How Does JSON:API Compare To REST and GraphQL?](https://nordicapis.com
 
 > This library creates a JSON API-compliant REST API from your Node app and automatically generates API documentation. 
 
-
-Dries gives his two cents and comes to his usual pragmatic "easy to do" alternative that guarantees to keep Drupal obsolete, but at least he is protecting himself from the "takers" and defeinding the "makers" so they have less to do and can get to Acquia's market quicker: [Headless CMS: REST vs JSON:API vs GraphQL](https://dri.es/headless-cms-rest-vs-jsonapi-vs-graphql)
+Dries gives his two cents and comes to his usual pragmatic alternative At the very least he is protecting himself from the "takers" and defending the "makers" so that a growing business and dwindling community in the open source sense can get to Big Tech's market quicker: [Headless CMS: REST vs JSON:API vs GraphQL](https://dri.es/headless-cms-rest-vs-jsonapi-vs-graphql)
 
 \pagebreak
-
