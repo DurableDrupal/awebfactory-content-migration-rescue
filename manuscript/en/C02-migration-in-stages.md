@@ -69,7 +69,7 @@ A prototype or production instance can now be deployed at this stage, lacking to
 
 #### Stage 2. Drupal 8 as an API First CMS and Structured Content Server, with decoupled front end JavaScript framework based websites and web applications.
 
-> If you are following the all-at-once Stage 4 route, (as we are, see the AWebFactory.com case study, starting in the next chapter), the legacy Drupal (6 or 7) website can **also** be considered as a possible (temporary or permanent) API-First CMS replacement, with the inclusion of drop-in modules we are now developing at AWebFactory.com, or other already developed elsewhere, such as [The Gizra Way](https://github.com/DavidHernandez/drupal-elm-starter), which uses Drupal 7 as the API-First CMS and Elm as an interesting alternative to JavaScript, for the front-end application.
+> If you are following the all-at-once Stage 4 route, (as we are, see the AWebFactory.com case study, [starting in the next chapter](C03-case-study-awebfactory.md)), the legacy Drupal (6 or 7) website can **also** be considered as a possible (temporary or permanent) API-First CMS replacement, with the inclusion of drop-in modules we are now developing at AWebFactory.com, or other already developed elsewhere, such as [The Gizra Way](https://github.com/DavidHernandez/drupal-elm-starter), which uses Drupal 7 as the API-First CMS and Elm as an interesting alternative to JavaScript, for the front-end application.
 
 In this second, more ambitious and highly rewarding stage:
 
